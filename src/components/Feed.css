@@ -1,0 +1,140 @@
+p,
+h4 {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  line-height: 1.2;
+}
+a:link,
+a:visited {
+  color: blue;
+}
+h5 {
+  margin: 6px 0px;
+}
+.inpt {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  margin: 5px;
+  padding: 5px;
+  word-wrap: break-word;
+  word-break: break-all;
+  height: 40px;
+}
+.post-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgb(54 122 246 / 25%), inset 0px 0.8px 0px -0.25px rgb(255 255 255 / 20%);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+.row {
+  width: 300px;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.break-tag {
+  word-break: keep-all;
+  margin-top: 10px;
+  white-space: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 8px;
+  padding: 8px;
+}
+
+.left {
+  padding-left: 30px;
+}
+.right {
+  padding-left: 30px;
+}
+.midle {
+  padding-left: 30px;
+}
+
+.border {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+/*  */
+.column {
+  margin: 5px;
+  padding: 5px;
+  width: 33%;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.active-post {
+  border: 2px solid black;
+  border-radius: 6px;
+  margin: 2px;
+  padding: 8px;
+  border-color: #dcdcdc;
+}
+.selected-post {
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 2px;
+  padding: 8px;
+}
+.upvote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2px;
+  padding: 2px 0px;
+}
+.icon-span {
+  cursor: pointer;
+  /* padding-left: 8px; */
+  padding-right: 10px;
+}
+.upvote span {
+  display: inline-block;
+}
+.action {
+  display: flex;
+  justify-content: space-evenly;
+}
+.post-spacing {
+  margin: 4px;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+.conversation {
+  margin: 3px;
+  padding: 3px;
+  cursor: pointer;
+}
+.conversation:hover {
+  background-color: #dcdcdc;
+  border: 1px solid black;
+  border-radius: 6px;
+}

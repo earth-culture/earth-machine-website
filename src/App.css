@@ -1,0 +1,14 @@
+body {
+  color: #6c6c6c;
+  font-family: "Lucida Console", "Courier New", monospace;
+  box-sizing: border-box;
+}
+.d-none {
+  display: none;
+}
+
+.btn {
+  margin: 5px;
+
+  padding: 1px 6px;
+}
